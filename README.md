@@ -1,9 +1,10 @@
 # fetal
 Estimate of Fetal Brain Temperature Using PRF Thermometry during Fetal MRI
 
-Code and data used for analysis used in the paper.
+This repository contains the code and data used for analysis used in the paper.
 
+Fetal_temp_analysis_submission.ipynb is a jupyter notebook for the analysis on relative fetal temperature.
+GA_differences.ipynb is a jupyter notebook for analysis on differences in Gestational Age between groups.
 
-Fetal_temp_analysis_submission.ipynb is a jupyter notebook for the analysis.
-
-Data is stored in records_temp/ and Matlab processing code starts with /fetal/temp/get_temp_comdiv.m.
+ROIs and phase emetrics are stored in records_temp/ (Fetal_temps_v2.csv containes corrected image numbers and durations).
+MATLAB processing code starts with /fetal/temp/get_temp_comdiv.m.
